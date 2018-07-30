@@ -18,4 +18,4 @@ jobs:
       - run:
           command: |
             . myenv/bin/activate
-            python demean_age.py participants2.tsv
+            python demean_age.py participants.txt
