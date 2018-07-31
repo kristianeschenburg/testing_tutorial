@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv(sys.argc[1],sep='\t')
+df = pd.read_csv(sys.argv[1],sep='\t')
 mean_age = df.age.mean()
 
 assert mean_age < 100
